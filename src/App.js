@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
+        <div className="contain">
           {fruits.map((fruit) => (
-            <p key={fruit}> {fruit} </p>
+            <p className="card" key={fruit}> {fruit} </p>
           ))}
         </div>
       </header>

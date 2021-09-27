@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card{
+  width: 320px;
+  height: 320px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  text-align: center;
+
+}
+
+.contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
